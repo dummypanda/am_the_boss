@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer, CrossEncoder
 # It formats the output by printing it in color.
 
 # Defined arguments
-API_KEY = "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" # api_key
+API_KEY = "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" # api_key
 model_name_tr = "gpt-3.5-turbo"  # model name
 model_name_ta = "gpt-4-1106-preview"
 tool_list_path = './tools.json' # list of tools path[ ]

@@ -15,7 +15,7 @@ save = 0
 
 
 # Defined arguments
-API_KEY = st.secrets["API_KEY"] # api_key
+
 model_name = "gpt-3.5-turbo"  # model name
 tool_list_path = "./tools.json"  # list of tools path
 example_path = "./examples.json"  # list of examples path
@@ -32,7 +32,7 @@ biencoder = SentenceTransformer("BAAI/bge-large-en-v1.5", device="cpu")
 cross_encoder = CrossEncoder(
     "cross-encoder/ms-marco-MiniLM-L-12-v2", max_length=512, device="cpu"
 )
-client = OpenAI(api_key=API_KEY, timeout=60, max_retries=2)
+client = OpenAI(api_key=st.secrets["API_KEY"], timeout=60, max_retries=2)
 
 # ------------------------------------------------------------------------------------------------------------------------------
 

@@ -32,7 +32,7 @@ biencoder = SentenceTransformer("BAAI/bge-large-en-v1.5", device="cpu")
 cross_encoder = CrossEncoder(
     "cross-encoder/ms-marco-MiniLM-L-12-v2", max_length=512, device="cpu"
 )
-client = OpenAI(api_key=st.secrets["API_KEY"], timeout=60, max_retries=2)
+client = OpenAI(api_key=st.secrets.API_KEY, timeout=60, max_retries=2)
 
 # ------------------------------------------------------------------------------------------------------------------------------
 

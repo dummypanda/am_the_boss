@@ -206,7 +206,7 @@ nncf==2.4.0
 notebook==6.5.2
 notebook_shim==0.2.2
 numba==0.56.4
-numpy==1.24.3
+numpy==1.22.3
 oauthlib==3.2.2
 omegaconf==2.3.0
 onnx==1.12.0

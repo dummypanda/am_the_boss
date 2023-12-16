@@ -4,7 +4,7 @@ import hnswlib
 import numpy as np
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer, CrossEncoder
-
+import streamlit as st
 # It formats the output by printing it in color.
 
 # Defined arguments

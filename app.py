@@ -15,7 +15,7 @@ save = 0
 
 
 # Defined arguments
-API_KEY = "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"  # api_key
+API_KEY = st.secrets["API_KEY"] # api_key
 model_name = "gpt-3.5-turbo"  # model name
 tool_list_path = "./tools.json"  # list of tools path
 example_path = "./examples.json"  # list of examples path

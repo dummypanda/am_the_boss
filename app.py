@@ -15,7 +15,7 @@ save = 0
 
 
 # Defined arguments
-API_KEY = "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"  # api_key
+API_KEY = "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"  # api_key
 model_name = "gpt-3.5-turbo"  # model name
 tool_list_path = "./tools.json"  # list of tools path
 example_path = "./examples.json"  # list of examples path

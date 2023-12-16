@@ -1,6 +1,6 @@
 streamlit==1.27.0
 sentence-transformers
 hnswlib
-openai
+openai==1.4.0
 streamlit_nested_layout
 numpy

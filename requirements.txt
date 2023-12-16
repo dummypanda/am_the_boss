@@ -92,10 +92,10 @@ GitPython==3.1.31
 google-auth==2.16.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
-googleapis-common-protos==1.58.0
+
 gradio==3.50.2
 gradio_client==0.6.1
-grpcio==1.51.0
+grpcio==1.51.1
 gTTS==2.3.1
 h11==0.14.0
 h5py==3.7.0

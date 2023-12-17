@@ -8,7 +8,7 @@ import streamlit as st
 # It formats the output by printing it in color.
 
 # Defined arguments
-API_KEY = st.secrets.API_KEY # api_key
+
 model_name_tr = "gpt-3.5-turbo"  # model name
 model_name_ta = "gpt-4-1106-preview"
 tool_list_path = './tools.json' # list of tools path[ ]
@@ -25,7 +25,7 @@ biencoder = SentenceTransformer("BAAI/bge-large-en-v1.5", device="cpu")
 cross_encoder = CrossEncoder(
     "cross-encoder/ms-marco-MiniLM-L-12-v2", max_length=512, device="cpu"
 )
-client = OpenAI(api_key=API_KEY, timeout=60, max_retries=2)
+client = OpenAI(api_key=st.secrets.API_KEY, timeout=60, max_retries=2)
 
 class color:
     PURPLE = "\033[1;35;48m"
